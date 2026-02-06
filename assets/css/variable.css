@@ -1,0 +1,61 @@
+/* ============================================
+   VARIABLES CSS
+   Definición centralizada de colores, fuentes
+   y medidas para fácil personalización
+   ============================================ */
+
+:root {
+  /* Colores principales */
+  --primary-color: #2563eb;
+  --primary-dark: #1e40af;
+  --secondary-color: #10b981;
+  --accent-color: #f59e0b;
+  
+  /* Colores de fondo */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --bg-navbar: #1f2937;
+  --bg-footer: #111827;
+  
+  /* Colores de texto */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-light: #ffffff;
+  
+  /* Colores de temperatura (para termómetros) */
+  --temp-cold: #3b82f6;
+  --temp-cool: #06b6d4;
+  --temp-moderate: #10b981;
+  --temp-warm: #f59e0b;
+  --temp-hot: #ef4444;
+  
+  /* Bordes y sombras */
+  --border-radius: 12px;
+  --border-radius-small: 6px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.15);
+  
+  /* Espaciado */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* Fuentes */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  
+  /* Transiciones */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  
+  /* Anchos máximos */
+  --max-width-container: 1200px;
+  --max-width-content: 800px;
+}
