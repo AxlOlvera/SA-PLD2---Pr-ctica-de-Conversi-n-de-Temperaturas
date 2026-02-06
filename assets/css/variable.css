@@ -1,39 +1,57 @@
 /* ============================================
-   VARIABLES CSS
+   VARIABLES CSS - GLASSMORPHISM DARK MODE
    Definición centralizada de colores, fuentes
    y medidas para fácil personalización
    ============================================ */
 
 :root {
-  /* Colores principales */
-  --primary-color: #2563eb;
-  --primary-dark: #1e40af;
-  --secondary-color: #10b981;
-  --accent-color: #f59e0b;
+  /* Colores principales - Neón y vibrantes */
+  --primary-color: #6366f1;
+  --primary-light: #818cf8;
+  --primary-dark: #4f46e5;
+  --secondary-color: #8b5cf6;
+  --accent-cyan: #06b6d4;
+  --accent-pink: #ec4899;
+  --accent-orange: #f97316;
   
-  /* Colores de fondo */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f3f4f6;
-  --bg-navbar: #1f2937;
-  --bg-footer: #111827;
+  /* Colores de fondo - Dark Mode */
+  --bg-body: #0f0f23;
+  --bg-gradient-start: #1a1a2e;
+  --bg-gradient-end: #16213e;
+  --bg-glass: rgba(255, 255, 255, 0.05);
+  --bg-glass-hover: rgba(255, 255, 255, 0.1);
   
   /* Colores de texto */
-  --text-primary: #111827;
-  --text-secondary: #6b7280;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
   --text-light: #ffffff;
   
-  /* Colores de temperatura (para termómetros) */
+  /* Colores de temperatura (para termómetros) con glow */
   --temp-cold: #3b82f6;
   --temp-cool: #06b6d4;
   --temp-moderate: #10b981;
   --temp-warm: #f59e0b;
   --temp-hot: #ef4444;
   
+  /* Glassmorphism */
+  --glass-background: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --backdrop-blur: blur(10px);
+  
+  /* Glow effects */
+  --glow-primary: 0 0 20px rgba(99, 102, 241, 0.5);
+  --glow-secondary: 0 0 20px rgba(139, 92, 246, 0.5);
+  --glow-cyan: 0 0 20px rgba(6, 182, 212, 0.5);
+  --glow-hot: 0 0 20px rgba(239, 68, 68, 0.5);
+  
   /* Bordes y sombras */
-  --border-radius: 12px;
-  --border-radius-small: 6px;
-  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --box-shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.15);
+  --border-radius: 20px;
+  --border-radius-small: 12px;
+  --border-radius-large: 30px;
+  --box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --box-shadow-hover: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
   
   /* Espaciado */
   --spacing-xs: 0.5rem;
@@ -41,21 +59,24 @@
   --spacing-md: 1.5rem;
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
   
   /* Fuentes */
-  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-size-small: 0.875rem;
   --font-size-base: 1rem;
   --font-size-large: 1.25rem;
   --font-size-xl: 1.5rem;
   --font-size-2xl: 2rem;
   --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
   
   /* Transiciones */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
   
   /* Anchos máximos */
-  --max-width-container: 1200px;
-  --max-width-content: 800px;
+  --max-width-container: 1400px;
+  --max-width-content: 900px;
 }
